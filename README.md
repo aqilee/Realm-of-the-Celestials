@@ -9,16 +9,21 @@ link:
 
 ---
 Delete after Winter Vacation
+
 To self directed learning team:
 
 1.runClient可以跑，應該可以不用擔心
+
 註解基本上都打好了，解說那個檔案在供さ小的註解有些都是用AI生成的，但勉強還算有用
 
 2.SpecialPig是試做的，名字、數值跟機制可能會根據未來的打算而改，但程式大致上就是長那樣
+
 bgm等維度可以成功註冊了之後要改成神域
 
 3.runData(生json的)會error，應該是因為礦物沒有圖層之類的，但runClient(跑minecraft的)能用
+
 ModEventbusSubscriber 跟 RealmoftheCelestials裡的onClientSetup 裡的註解是因為程式會error，可能是因為沒有建模，不確定。
+
 除了bgm以外其他好像都是我搞的，寒假各位要開工了，高二的自主或許可能不能只有半成果
 
 至於開工要做什麼，以下是比較難搞的東西：
@@ -43,4 +48,4 @@ ModEventbusSubscriber 跟 RealmoftheCelestials裡的onClientSetup 裡的註解�
             目前有小boss、地獄的神、時間操控者需要解決
             要特地弄個血條嗎
 
-今當遠離，臨表Sb<sub>(g)</sub>，不知所云(❌
+~~今當遠離，臨表Sb<sub>(g)</sub>，不知所云~~
