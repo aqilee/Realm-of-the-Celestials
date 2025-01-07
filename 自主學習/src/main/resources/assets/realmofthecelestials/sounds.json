@@ -1,0 +1,10 @@
+{
+  "overworld_night": {
+    "sounds": [
+      {
+        "name": "realmofthecelestials:bgm/overworld_night",
+        "stream": true
+      }
+    ]
+  }
+}

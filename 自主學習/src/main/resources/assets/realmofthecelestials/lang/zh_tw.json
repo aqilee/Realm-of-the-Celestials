@@ -1,0 +1,23 @@
+{
+  "item.realmofthecelestials.spine" : "脊椎",
+  "item.realmofthecelestials.sparkling_crystal" : "波灩水晶",
+  "item.realmofthecelestials.cuisine" : "聖食",
+  "item.realmofthecelestials.mysterious_compass" : "神秘羅盤",
+
+  "item.realmofthecelestials.sparkling_sword" : "波灩劍",
+  "item.realmofthecelestials.sparkling_pickaxe" : "波灩鎬",
+  "item.realmofthecelestials.sparkling_shovel" : "波灩鏟",
+  "item.realmofthecelestials.sparkling_axe" : "波灩斧",
+  "item.realmofthecelestials.sparkling_hoe" : "波灩鋤",
+
+  "item.realmofthecelestials.sparkling_helmet" : "波灩頭盔",
+  "item.realmofthecelestials.sparkling_chestplate" : "波灩胸甲",
+  "item.realmofthecelestials.sparkling_leggings" : "波灩護腿",
+  "item.realmofthecelestials.sparkling_boots" : "波灩靴",
+
+  "block.realmofthecelestials.sparkling_block" : "波灩方塊",
+  "block.realmofthecelestials.sparkling_ore" : "波灩礦",
+  
+  "creativetab.realmofthecelestials.rotc_items" : "神域物品",
+  "creativetab.realmofthecelestials.rotc_block" : "神域方塊"
+}

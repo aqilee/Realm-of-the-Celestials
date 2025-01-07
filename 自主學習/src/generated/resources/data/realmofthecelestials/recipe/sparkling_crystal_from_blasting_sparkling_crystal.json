@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 120,
+  "experience": 0.5,
+  "group": "sparkling",
+  "ingredient": {
+    "item": "realmofthecelestials:sparkling_crystal"
+  },
+  "result": {
+    "id": "realmofthecelestials:sparkling_crystal"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  //Items
+  "item.realmofthecelestials.spine" : "Spine",
+  "item.realmofthecelestials.sparkling_crystal" : "Sparkling Crystal",
+  "item.realmofthecelestials.cuisine" : "Cuisine",
+  "item.realmofthecelestials.mysterious_compass" : "Mysterious Compass",
+
+  "item.realmofthecelestials.sparkling_sword" : "Sparkling Sword",
+  "item.realmofthecelestials.sparkling_pickaxe" : "Sparkling Pickaxe",
+  "item.realmofthecelestials.sparkling_shovel" : "Sparkling Shovel",
+  "item.realmofthecelestials.sparkling_axe" : "Sparkling Axe",
+  "item.realmofthecelestials.sparkling_hoe" : "Sparkling Hoe",
+
+  "item.realmofthecelestials.sparkling_helmet" : "Sparkling Helmet",
+  "item.realmofthecelestials.sparkling_chestplate" : "Sparkling Chestplate",
+  "item.realmofthecelestials.sparkling_leggings" : "Sparkling Leggings",
+  "item.realmofthecelestials.sparkling_boots" : "Sparkling Boots",
+
+  "block.realmofthecelestials.sparkling_block" : "Sparkling Block",
+  "block.realmofthecelestials.sparkling_ore" : "Sparkling Ore",
+
+  "creativetab.realmofthecelestials.rotc_items" : "Realm of the Celestials Items",
+  "creativetab.realmofthecelestials.rotc_block" : "Realm of the Celestials Blocks"
+}
