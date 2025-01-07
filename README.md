@@ -19,6 +19,7 @@ ModEventbusSubscriber 跟 RealmoftheCelestials裡的onClientSetup 裡的註解�
 
 至於開工要做什麼，以下是比較難搞的東西：
 >維度：目前註冊不了，AI生的好像不行
+
 >傳送門：傳送邏輯
 
 >生態域：
@@ -26,7 +27,7 @@ ModEventbusSubscriber 跟 RealmoftheCelestials裡的onClientSetup 裡的註解�
 >結構：目前會用結構方塊了，只是不知道如何從伺服器地圖檔抓檔案
        剩下的就只剩結構的生成檔案要搞了，大概吧
 
->生物：
+>生物：(empty)
 
 >劇情：大綱知道了，文本什麼時候寫，怎麼寫
        如何把劇情文本弄進模組裡，以及怎麼觸發
