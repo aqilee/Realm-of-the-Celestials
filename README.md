@@ -38,4 +38,4 @@ ModEventbusSubscriber 跟 RealmoftheCelestials裡的onClientSetup 裡的註解�
             目前有小boss、地獄的神、時間操控者需要解決
             要特地弄個血條嗎
 
-今當遠離，臨表Sb~(g)~，不知所云(❌
+今當遠離，臨表Sb<sub>(g)</sub>，不知所云(❌
