@@ -23,6 +23,9 @@ public class ModItems {
     public static final RegistryObject<Item> SPARKLING_CRYSTAL = ITEMS.register("sparkling_crystal",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> UNKNOWN_BOOK = ITEMS.register("unknown_book",
+            () -> new WrittenBookItem(new Item.Properties()));
+
     public static final RegistryObject<Item> CUISINE = ITEMS.register("cuisine",
             () -> new Item(new Item.Properties().food(ModFoodProperties.CUISINE)));
 

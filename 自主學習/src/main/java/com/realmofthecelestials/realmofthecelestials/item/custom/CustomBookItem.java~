@@ -1,0 +1,53 @@
+package com.realmofthecelestials.realmofthecelestials.item.custom;
+
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonArray;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.ListTag;
+import net.minecraft.nbt.StringTag;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.network.chat.Component;
+
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class BookLoader {
+
+    private static final Gson gson = new Gson();
+
+    public static void loadBookData(ItemStack book, String jsonFilePath) {
+        try (FileReader reader = new FileReader(jsonFilePath)) {
+            JsonObject jsonObject = gson.fromJson(reader, JsonObject.class);
+            String title = jsonObject.get("title").getAsString();
+            String author = jsonObject.get("author").getAsString();
+            JsonArray pagesArray = jsonObject.getAsJsonArray("pages");
+
+            List<Component> pages = new ArrayList<>();
+            for (int i = 0; i < pagesArray.size(); i++) {
+                pages.add(Component.literal(pagesArray.get(i).getAsString()));
+            }
+
+            setBookData(book, title, author, pages);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void setBookData(ItemStack book, String title, String author, List<Component> pages) {
+        CompoundTag tag = new CompoundTag();
+        tag.putString("title", title);
+        tag.putString("author", author);
+
+        ListTag pagesTag = new ListTag();
+        for (Component page : pages) {
+            pagesTag.add(StringTag.valueOf(Component.Serializer.toJson(page)));
+        }
+        tag.put("pages", pagesTag);
+    }
+}
+
+
+
