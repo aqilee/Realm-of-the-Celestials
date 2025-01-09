@@ -5,6 +5,7 @@ import com.realmofthecelestials.realmofthecelestials.block.ModBlocks;
 import com.realmofthecelestials.realmofthecelestials.entity.ModEntities;
 import com.realmofthecelestials.realmofthecelestials.entity.client.SpecialPigRenderer;
 import com.realmofthecelestials.realmofthecelestials.event.custom.DayChangeAlert;
+import com.realmofthecelestials.realmofthecelestials.event.custom.GetItemWhileLogin;
 import com.realmofthecelestials.realmofthecelestials.event.custom.PlayBGM;
 import com.realmofthecelestials.realmofthecelestials.item.ModCreativeModeTabs;
 import com.realmofthecelestials.realmofthecelestials.item.ModItems;
@@ -50,6 +51,8 @@ public class RealmoftheCelestials {
         // Register event
         MinecraftForge.EVENT_BUS.register(new DayChangeAlert());
         MinecraftForge.EVENT_BUS.register(new PlayBGM());
+        MinecraftForge.EVENT_BUS.register(new GetItemWhileLogin());
+        // Client
 
 
         // Register the item to a creative tab
